@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+header {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.header__ttl {
+    color: #ec87ef;
+    font-size: 32px;
+    font-family: "Times New Roman";
+}
+
+.header__nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    width: 55%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #cdcdcd;
+}
+
+.header__nav-item a::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/gear.svg);
+    background-size: cover;
+    vertical-align: sub;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.auth-form {
+    width: 40%;
+}
+
+.header__nav-btn {
+    padding: 7px 0;
+}
+
+.header__nav-btn::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/logout.svg);
+    background-size: cover;
+    vertical-align: sub;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.header__nav-btn {
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #cdcdcd;
+}
+
+main {
+    background-color: #f9f9f9;
+    padding: 20%;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.update-ttl {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.update-form {
+    width: 100%;
+}
+
+.update-form__item {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.update-form__input-unit {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #e0dfde;
+}
+
+.update-form__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn {
+    width: 150px;
+    padding: 3px;
+    background-color: #e0dfde;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.update-form__btn-submit {
+    width: 150px;
+    padding: 5px;
+    color: white;
+    background: linear-gradient(90deg, #a3a6e1, #ffabd9);
+    border: none;
+    border-radius: 5px;
+}
+
+.update-form__btn-submit:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.form-item__error {
+    color: red;
+}

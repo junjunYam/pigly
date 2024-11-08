@@ -1,0 +1,13 @@
+.container__sub-ttl {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.auth-nav {
+    text-align: center;
+}
+
+.auth-nav a {
+    font-family: "游明朝";
+    color: #2c99ff;
+}
